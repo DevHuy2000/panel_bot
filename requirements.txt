@@ -1,0 +1,8 @@
+Flask
+telebot
+pycryptodome
+requests
+pyTelegramBotAPI
+pytz
+urllib3
+psutil
