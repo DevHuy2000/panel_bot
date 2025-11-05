@@ -44,7 +44,7 @@ def load_accounts():
 # --- 2. Lấy token từ API ---
 async def fetch_token(session, uid, password):
     """Gọi API để lấy token từ UID và mật khẩu."""
-    url = f"https://api-jwt-ag-team.vercel.app/get?uid={uid}&password={password}"
+    url = f"https://VipCoringaJWT.vercel.app/token?uid={uid}&password={password}"
     try:
         async with session.get(url, timeout=25) as res:
             if res.status == 200:
