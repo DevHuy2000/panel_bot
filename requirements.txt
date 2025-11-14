@@ -1,4 +1,10 @@
-Flask
-aiohttp
+telebot
 requests
+pyTelegramBotAPI
+psutil
+protobuf
 pycryptodome
+PyJWT
+protobuf-decoder
+cryptography
+Flask
